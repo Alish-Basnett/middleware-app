@@ -12,7 +12,6 @@ export default function LoginPage() {
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
-  // Hardcoded admin credentials
   const ADMIN_USERNAME = "admin";
   const ADMIN_PASSWORD = "admin";
 
